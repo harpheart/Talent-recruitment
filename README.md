@@ -3,7 +3,9 @@
 # 运行
 #### git clone https://github.com/harpheart/Talent.git
 #### npm install 
-#### npm run
+#### npm start
+#### cd server
+#### node sever.js
 # 主要功能
 有登录注册功能，求职者或者企业可以登录或者注册，第一次注册完成登录要填写基本信息并上传头像，主页分为首页个人信息和聊天3个页面，用户可以在首页进行聊天
 或者查看信息
