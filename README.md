@@ -6,3 +6,12 @@
 #### npm run
 # 效果图
 ![image](https://github.com/harpheart/tu/blob/master/zp1.png)
+![image](https://github.com/harpheart/tu/blob/master/zp2.png)
+![image](https://github.com/harpheart/tu/blob/master/zp3.png)
+![image](https://github.com/harpheart/tu/blob/master/zp4.png)
+![image](https://github.com/harpheart/tu/blob/master/zp5.png)
+![image](https://github.com/harpheart/tu/blob/master/zp6.png)
+![image](https://github.com/harpheart/tu/blob/master/zp7.png)
+![image](https://github.com/harpheart/tu/blob/master/zp8.png)
+![image](https://github.com/harpheart/tu/blob/master/zp9.png)
+![image](https://github.com/harpheart/tu/blob/master/zp10.png)
