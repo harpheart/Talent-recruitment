@@ -1,0 +1,33 @@
+.drop
+{
+   width: 100%; 
+text-align: center;
+}
+ .ant-upload {
+    width: 128px;
+    height: 128px;
+
+  }
+  .mod
+  {
+      text-align: center;
+  }
+  .bossinfo-form
+  {
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .upload-up
+  {width: 100%;
+   display: flex;
+   justify-content: center;
+    margin-top:50px;
+    margin-left: 100px;
+    margin-bottom:30px;
+  
+  }
+  .bossinfo-form-button
+  {
+margin-left: 220px;
+  }

@@ -1,0 +1,90 @@
+{
+    "itList": [
+        {
+            "id": 0,
+            "name": "女装"
+        },
+        {
+            "id": 1,
+            "name": "鞋包"
+        },
+        {
+            "id": 2,
+            "name": "母婴"
+        },        {
+            "id": 3,
+            "name": "女装"
+        },
+        {
+            "id": 4,
+            "name": "鞋包"
+        },
+        {
+            "id": 5,
+            "name": "母婴"
+        },        {
+            "id": 6,
+            "name": "女装"
+        },
+        {
+            "id": 7,
+            "name": "鞋包"
+        },
+        {
+            "id": 8,
+            "name": "母婴"
+        },        {
+            "id": 9,
+            "name": "女装"
+        }
+      
+    
+    ],
+    "conlist":[
+        {
+            "name":"女装",
+            "src":"../../static/listtu/kzz.webp"
+            
+        },
+        {
+            "name":"女装",
+            "src":"../../static/listtu/kzz.webp"
+            
+        },
+        {
+            "name":"女装",
+            "src":"../../static/listtu/kzz.webp"
+            
+        },
+        {
+            "name":"女装",
+            "src":"../../static/listtu/kzz.webp"
+            
+        },
+        {
+            "name":"女装",
+            "src":"../../static/listtu/kzz.webp"
+            
+        },
+        {
+            "name":"女装",
+            "src":"../../static/listtu/kzz.webp"
+            
+        },
+        {
+            "name":"女装",
+            "src":"../../static/listtu/kzz.webp"
+            
+        },
+        {
+            "name":"女装",
+            "src":"../../static/listtu/kzz.webp"
+            
+        },
+        {
+            "name":"女装",
+            "src":"../../static/listtu/kzz.webp"
+            
+        }
+    ]
+}
