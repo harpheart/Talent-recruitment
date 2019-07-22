@@ -3,5 +3,5 @@
 # 运行
 #### git clone https://github.com/harpheart/Talent.git
 #### npm install 
-#npm run
+#### npm run
 # 效果图
