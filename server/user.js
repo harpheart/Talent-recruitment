@@ -6,7 +6,7 @@ const Chat=model.getModel('chat')
 const utils=require('utility')
 const fs=require("fs");
 Router.get('/list',function (req,res) {
-    res.header("Access-Control-Allow-Origin", "*");
+ 
     // User.remove({},function (err,doc) {
     //     if(err)
     //     {
@@ -16,57 +16,20 @@ Router.get('/list',function (req,res) {
         
         
     // })
-    // const {type}=req.query
-    // User.find({type},function (err,doc) {
-    //     if(err)
-    //     {return err}
-    //     return res.json({code:0,data:doc})
+    const {type}=req.query
+    User.find({type},function (err,doc) {
+        if(err)
+        {return err}
+        return res.json({code:0,data:doc})
         
-    // })
-    fs.readFile("../mydata/list.json",function (err,mdata) {
-        if(err){
-            return console.log(err);
-        }else {
-                  //toString() 将buffer格式转化为中文
-                  return res.json({code:0,data:mdata.toString()})
-        }
     })
+
    
        
 
     
 })
 
-Router.get('/listxq',function (req,res) {
-    res.header("Access-Control-Allow-Origin", "*");
-    fs.readFile("../mydata/listxq.json",function (err,mdata) {
-        if(err){
-            return console.log(err);
-        }else {
-                  //toString() 将buffer格式转化为中文
-                  return res.json({code:0,data:mdata.toString()})
-        }
-    })
-   
-       
-
-    
-})
-Router.get('/listss',function (req,res) {
-    res.header("Access-Control-Allow-Origin", "*");
-    fs.readFile("../mydata/listss.json",function (err,mdata) {
-        if(err){
-            return console.log(err);
-        }else {
-                  //toString() 将buffer格式转化为中文
-                  return res.json({code:0,data:mdata.toString()})
-        }
-    })
-   
-       
-
-    
-})
 Router.get('/getmsglist',function (req,res) {
 
     const user=req.cookies.userid
